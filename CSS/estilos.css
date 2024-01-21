@@ -178,6 +178,11 @@ footer ul li{
     padding-right: 30px;
 }
 
+#contactar{
+    background-color: #ffc900;
+    color: #222;
+}
+
 /*Card portfolio*/
 
 .filaportfolio{
