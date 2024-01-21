@@ -1,0 +1,188 @@
+/*CSS general*/
+*{
+    margin: 0px;
+    border: 0px;
+}
+
+body{
+    background-color: #fff;
+    color: #222;
+    font: 200 14px 'Poppins', sans-serif;
+    }
+
+section{
+    padding: 10px 100px 10px 100px;
+}
+
+h1{
+    font-size: 42px;
+    color: antiquewhite;
+}
+
+h2{
+    font-size: 32px;
+}
+
+nav{
+    position: fixed;
+    width: 100%;
+    height: 55px;
+    background-color: #222;
+    color: white;
+    border-bottom: 1px solid white;
+    padding-top: 10px;
+    text-align: center;
+}
+
+nav ul{
+    display: inline-block;
+}
+
+nav ul li{
+    padding: 12px;
+}
+
+thead{
+    background-color: #222;
+    color: #fff;
+}
+
+a:any-link{
+    color: white;
+}
+
+a:-webkit-any-link{
+    color: white;
+}
+
+a:-moz-any-link{
+    color: white;
+}
+
+a:hover{
+    color: #ffc900;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    float: left;
+}
+
+
+/*CSS IDs y clases*/
+
+#datospersonales{
+    padding: 65px;
+}
+
+#datoscontenedor{
+    display: flex;
+    column-gap: 10px;
+}
+
+#logo{
+    padding-top: 0px;
+}
+
+#educacion{
+    background-color: #222;
+    color: white;
+    }
+
+#exp{
+    list-style: none;
+    margin-top: 20px;
+}
+
+#experiencia{
+    background-color: #222;
+    color: white;
+    border-top: 1px solid #ffc900;
+    min-height: 300px;
+}
+
+#headers{
+    font-weight: 300;
+}
+
+#cvext{
+    padding-top: 75px;
+    background-image: url(../imagenes/inicioCV.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 280px;
+}
+
+#tcontenido{
+    margin-right: 30;
+}
+
+#comentario{
+    background-color: #ffc900;
+    color: #222;
+}
+
+/*Card educacion*/
+
+.grideducacion{
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    grid-gap: 10px;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.cardedu {
+    background-color: #333333;
+    border-radius: 15px;
+    color: white;
+    padding: 10px 15px;
+}
+
+.cardedu h3{
+    color: #ffc900;
+    border-top: 1px solid #ffc900;
+    margin-bottom: 5px;
+}
+
+.cardedu p{
+    margin-bottom: 5px;
+}
+
+/*Formulario*/
+
+.itemcom{
+    display: grid;
+    grid-template-columns: 150px 350px;
+    justify-content: right;
+    margin-bottom: 10px;
+}
+
+.itemcom label{
+    font-weight: 600;
+}
+
+.itemcom input, .itemcom textarea{
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+input[type="submit"]{
+    background-color: white;
+    color: #222;
+    padding: 10px;
+    grid-column: 2/3;
+    justify-self: end;
+}
+
+input[type="submit"]:hover{
+    background-color: #222;
+    color: #ffc900;
+}
