@@ -307,3 +307,7 @@ input[type="submit"]{
     justify-self: end;
 }
 
+input[type="submit"]:hover{
+    background-color: #FFC900;
+    color: black;
+}
